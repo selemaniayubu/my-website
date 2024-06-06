@@ -1,0 +1,192 @@
+ * {
+    font-family: Arial;
+    margin: 0;
+ }
+ /* HEADER section */
+ .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 100px;
+ }
+
+.left-header-section a{
+    text-decoration: none;
+    font-size: 35px;
+    color: gray;
+    font-weight: 900;
+    margin-left: 50px;
+} 
+.left-header-section a:hover {
+    color: black;
+}
+.left-header-section img {
+    width: 60px;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li {
+    float: left;
+}
+a li {
+    flex: 1;
+    text-decoration: none;
+    color: rgb(92, 89, 89);
+    font-weight: 700;
+    padding: 20px;
+}
+a li:hover {
+    color: black;
+    text-decoration: underline black;
+}
+.right-header-section {
+    margin-right: 50px;
+}
+.right-header-section img {
+    width: 30px;
+    margin-right: 5px;
+}
+.main-section-header {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 300px;
+}
+
+.fav-thumbnails {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.thumbnails img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.thumbnails-description-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 250px;
+}
+.description {
+    font-size: 15px;
+    font-weight: 700;
+}
+.favourite-icon img {
+    width: 15px;
+}
+
+.rating-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 250px;
+}
+.rating-description {
+    font-size: 13px;
+    font-weight: 600;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+/*What PEOPLE says */
+.what-they-say {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.what-they-say img {
+    width: 50px;
+}
+
+.what-people-say-though{
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+    margin-bottom: 100px;
+}
+.peoples-opinions {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+}
+.people-profile-pictures img {
+    width: 100px;
+    border-radius: 50px;
+}
+.people-thoughts {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 15px;
+}
+.people-statements {
+    color: rgb(99, 98, 98);
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.people-statements img {
+    width: 30px;
+}
+.people-name {
+    font-weight: 800;
+}
+.people-status {
+    font-weight: 500;
+}
+
+.visit-word-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#14B789;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.visit-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.visit-social-media img {
+    width: 50px;
+}
+
+/* This is the FOOTER */
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14B789;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 40px;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+  .footer-section a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+  }

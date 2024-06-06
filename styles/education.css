@@ -1,0 +1,119 @@
+ * {
+    margin: 0;
+    background: url('../media/background-images/bg-pic3.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+ .header-section {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 80px;;
+ }
+ ul {
+   list-style-type: none;
+ }
+ li {
+   float: left;
+ }
+ li a {
+   text-decoration: none;
+   color: rgb(153, 150, 150);
+   padding: 25px;
+   font-size: large;
+   font-weight: 800;
+ }
+ .top-right-header-section {
+   margin: 50px;
+   
+ }
+ .top-left-header-section img {
+   width: 80px;
+   border-radius: 40px;
+ }
+
+ .main-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .main-heading {
+   font-size: 60px;
+   color: white;
+ }
+ .education-motto {
+   color: white;
+   font-size: 30px;
+   margin-bottom: 40px;
+ }
+
+ .all-levels-of-my-education {
+   display: flex;
+   flex-direction: row;
+ }
+ .levels-of-education {
+   display: flex;
+   flex-direction: column;
+   width: 250px;
+   height: 300px;
+   border: 1px solid rgb(54, 54, 54);
+   margin-left: 10px;
+ }
+ 
+ .level-image img {
+   width: 50px;
+   border-radius: 25px;
+ }
+ .div-1 {
+   display: flex;
+   flex-direction: row;
+   margin-top: 10px;
+   margin-bottom: 20px;
+ }
+ .levels-of-ed {
+   display: flex;
+   flex-direction: column;
+   width: 510px;
+   height: 300px;
+   border: 1px solid white;
+   margin-left: 10px;
+ }
+.level-title {
+   font-size: 20px;
+   color: blue;
+   font-weight: 800;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.level-description {
+   font-size: larger;
+   margin-bottom: 30px;
+   color: rgb(18, 18, 18);
+}
+
+.see-more {
+   text-decoration: underline #86918e;
+   color:rgb(100, 100, 100);
+   font-weight: 900;
+   font-size: 20px;
+}
+
+/* This is the FOOTER */
+.footer-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #14B789;
+   height: 40px;
+   margin-bottom: 50px;
+ }
+ .footer-section a {
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   font-weight: 700;
+   font-size: 25px;
+ }

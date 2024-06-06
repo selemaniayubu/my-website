@@ -1,0 +1,208 @@
+ 
+  * {
+  font-family: Roboto, Arial;
+ }
+
+ /* This is the HEADERsection */
+ .header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  color: white;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.header-right-section {
+  margin-left: 100px;
+  white-space: nowrap;
+}
+.header-right-section img {
+  width: 48px;
+  border-radius: 25px;
+  padding-top: 5px;
+  opacity: 0.5;
+}
+
+.header-middle-section {
+  font-size: 13px;
+  white-space: nowrap;
+  flex: 1;
+}
+ul {
+  list-style-type: none;
+  background-color: #333333;
+}
+li {
+  float: left;
+}
+li a {
+  color: rgb(214, 213, 213);
+  padding: 25px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+li a:hover {
+  text-decoration: underline yellow;
+  color: #4480c5;
+}
+
+
+.header-right-section {
+  font-size: 40px;
+}
+
+
+.header-left-button {
+  font-weight: bold;
+  background-color: rgb(197, 197, 18);
+  width: 150px;
+  height: 38px;
+  border: none;
+  border-radius: 25px;
+  margin-right: 100px;
+}
+.header-left-button:hover {
+  opacity: 0.6;
+  transition: opacity 0.8s;
+}
+.header-left-button:active {
+  color: white;
+  background-color: rgb(31, 29, 29);
+}
+
+/* This is the MAIN section */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+.left-section {
+  margin-left: 100px;
+  margin-right: 250px;
+}
+
+.salutation-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  height: 50px;
+  width: 350px;
+  font-size: 35px;
+  cursor: pointer;
+}
+.salutation-button:hover {
+  opacity: 0.5;
+  transition: opacity 0.25s;
+}
+.salutation-button:active {
+  background-color: white;
+  color: black;
+}
+.salutation-button img{
+  width: 45px;
+  border-radius: 25px;
+}
+
+.welcome-button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  width: 300px;
+  font-size: 35px;
+  cursor: pointer;
+}
+.welcome-button:active {
+  background-color: black;
+  color: yellow;
+}
+.welcome-button:hover{
+  opacity: 0.8;
+  transition: opacity;
+}
+
+/* Second section of the main page */
+.story {
+  display: flex;
+  margin-top: 20px;
+  border-top-color: #333333;
+  margin-bottom: 150px;
+  height: 60%;
+}
+
+.paragraph-picture {
+  margin-left: 100px;
+  margin-right: 20px;
+}
+.paragraph-picture img {
+  width: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.my-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14B789;
+  border-radius: 10px;
+  height: 110px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+.my-story img {
+  width: 100px;
+  border-radius: 50px;
+}
+.self-info p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(80, 78, 78);
+}
+hr {
+  margin-left: 100px;
+  margin-right: 100px;
+  color:rgb(61, 54, 54);
+}
+
+/* This is the FOOTER */
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14B789;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 40px;
+  margin-bottom: 50px;
+}
+.footer-section a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+}
