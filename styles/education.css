@@ -10,7 +10,7 @@
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   margin-bottom: 80px;;
+   margin-bottom: 80px;
  }
  ul {
    list-style-type: none;
@@ -89,6 +89,7 @@
    margin-bottom: 10px;
 }
 .level-description {
+   color: white;
    font-size: larger;
    margin-bottom: 30px;
    color: rgb(18, 18, 18);
