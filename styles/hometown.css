@@ -194,7 +194,9 @@ h5 {
   }
 
 @media only screen and (max-width: 768px) {
-    .header section, .footer-section {
+    .header section .footer-section {
         width: 767px;
+        height: 100px; 
+        magin-bottom: 200px;
     }
 }
