@@ -5,6 +5,7 @@
     background-color: #14B789;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 /*Top header section */
 .top-header-section {
